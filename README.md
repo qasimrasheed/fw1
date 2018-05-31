@@ -1,5 +1,5 @@
 # fw1
-This sample assume an existing CF mapping for /framework
+This sample assume an existing CF mapping for /framework that points to FW/1
 
 Clone the repository in the webroot (folder fw1)
 
