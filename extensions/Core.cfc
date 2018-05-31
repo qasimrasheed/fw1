@@ -13,14 +13,7 @@ component {
 		throw( 'Implement this method in inherited components' );
 	}
 	
-	/*
-	function _get_framework_one() {
-		if ( !StructKeyExists( request, '_framework_one' ) ) {
-			request._framework_one = new app.Framework();
-        }
-        return request._framework_one;
-	}
-	*/
+
 	// delegation of lifecycle methods to FW/1. DO NOT change:
 	public any function onError ( required any Exception, string event ){
 		return _get_framework_one().onError( exception, event );
