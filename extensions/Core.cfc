@@ -5,8 +5,7 @@ component {
 		
 	/* A structure that contains ColdFusion mappings. The mappings that you define here take precedence over the mappings defined in the Administrator  */
 	this.mappings = {
-		'/framework' : ExpandPath( '/cfextensions/wddms/externals/framework/4_2/' )
-		, '/app' : ExpandPath( '/fw1/extensions' )
+		'/app' : ExpandPath( '/fw1/extensions' )
 	};
 		
 	function _get_framework_one() {
