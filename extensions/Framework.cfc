@@ -11,8 +11,12 @@ component extends="framework.one" {
 		, trace = true
 	};
 	
-	// this is not getting processed
-	addRoute( '/a', '/main/home' );
+	function init( config = {} ) {
+		super.init( config );
+		// this is not getting processed
+		addRoute( '/a', '/main/home' );
+		return this;
+	}
 	
 	public any function setupApplication() {
 	}	
